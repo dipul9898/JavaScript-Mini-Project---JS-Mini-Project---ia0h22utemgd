@@ -1,1 +1,172 @@
 
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+ .nav{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+    justify-content: space-between;
+    opacity: 0.75;
+    font-size: x-large;
+}
+ .nav :hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color:black;
+    border-radius: 20px;
+}
+div span{
+    margin: 0px 10px;
+    padding: 0px 10px;
+
+
+}
+#logo img{
+    height: 60px;
+    width: 100%;
+    border-radius: 50px;
+    
+
+}
+#logo img:hover{
+    height: 60px;
+    width: 100%;
+    border-radius: 50px;
+}
+.contain {
+    background-color: rgb(116, 146, 155);
+}
+.compnyName{
+    padding: 20px;
+    display: flex;
+   justify-content: center;
+   font-size: xx-large;
+   font-weight: 700;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-shadow: 1px 1px 2px rgb(219, 152, 152), 0 0 1em rgb(55, 55, 80), 0 0 0.2em rgb(133, 73, 113);
+}
+.car img{
+    border-radius: 10px;
+}
+.sellAdd{
+display: flex;
+justify-content: center;
+align-items: center;
+justify-content: space-between;
+padding:20px 20px;
+
+
+}
+.ourservious{
+    margin:40px 40px;
+    display: flex;
+    justify-content:space-between;
+    
+    
+}
+.ourservious h3{
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(78, 0, 0);
+}
+.freeser{
+    background-color: rgb(179, 226, 226);
+    align-items: center;
+    padding: 20px 20px;
+    border: black  2px;
+    box-shadow: 10px 10px 40px rgb(8, 5, 5);
+    border-radius: 8px;
+    font-size:large ;
+    font-weight:650 ;
+
+}
+.helpdeshk{
+     margin: 100px 40px 80px 40px;
+    display: flex;
+    border-radius: 12px;
+    background-color:rgb(78, 100, 107);
+    overflow: hidden;
+    
+}
+.helppic img{
+    border-radius: 12px;
+    margin: 10px;
+}
+.helpartical{
+    color: rgb(247, 202, 247);
+    font-size: larger;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 30px;
+    padding: 10px;
+    word-spacing: 7px;
+}
+
+ /* .car1{
+  height:50px;
+  width: 50px;
+   
+}
+.car2{
+    height:50px;
+    width: 50px;
+     
+  }
+  .car3{
+    height:60px;
+    width: 70px;
+     
+  }
+ div .car4{
+    height:50px;
+    width: 60px;
+     
+  } */
+   .carlable{
+       background-color:black ;
+       color: rgb(242, 242, 250);
+      padding: 5px;
+      border-radius: 5px;
+      margin-left: 50px;
+      font-size: large;
+  }
+  /*...................footer...............*/
+  .footer{
+
+    /* height: 200px; */
+  background-color: rgb(15, 15, 15);
+  color:aliceblue;
+  /* position: fixed; */
+  }
+  .foo0{
+    margin: 30px 50px 10px 60px;
+
+  }
+  .foo1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  .foo1 span{
+    padding: 40px;
+    margin: 5px;
+  }
+  .foo1 span:hover{
+    padding: 40px;
+    margin: 5px;
+    color: blue;
+  }
+  .foo2{
+  margin-top: 25px;
+  margin-left: 40px;
+  opacity: 0.4;
+  color: rgb(243, 96, 96);
+  }
+  
